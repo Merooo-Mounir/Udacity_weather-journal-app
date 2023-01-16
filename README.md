@@ -1,7 +1,7 @@
-# Project Title ( Weather-Journal App Project)
-
 <!-- Add banner here -->
 ![Banner](Readme/header.png)
+
+# Project Title ( Weather-Journal App Project)
 
 <!-- Describe project in brief -->
 - Second project of Egypt FWD initiative with Udacity collaboration (Front End Developer Udacity Nanodegree).
@@ -46,25 +46,25 @@ This project is built for `Udacity web development professional track` as a task
 
 ### Introduction
 
-- [Back to top](#table-of-contents)
+[(Back to top)](#table-of-contents)
 
 This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI for a Weather-Journal App.
 
 ### Project Rubric
 
-- [Back to top](#table-of-contents)
+[(Back to top)](#table-of-contents)
 
 The project will be evaluated by a Udacity code reviewer according to the Weather Journal App project [rubric](https://review.udacity.com/#!/rubrics/2655/view).
 
 ### Get the Starter Code
 
-- [Back to top](#table-of-contents)
+[(Back to top)](#table-of-contents)
 
 The starter code can be found in [The Weather Journal project repository](https://github.com/udacity/fend/tree/refresh-2019/projects/weather-journal-app) repo provided by Udacity.
 
 ## Instructions
 
-- [Back to top](#table-of-contents)
+[(Back to top)](#table-of-contents)
 
 1. ***Start by setting up your project environment.***
    Make sure Node is installed from the terminal. Install the packages `Express`, `Body-Parser`, and `Cors` from the terminal and include them in your `server.js` file.
@@ -95,7 +95,7 @@ For details now how these functionalities have been implemented, refer the sourc
 
 ## Requirements
 
-- [Back to top](#table-of-contents)
+[(Back to top)](#table-of-contents)
 
 ### Project Environment Setup
 
@@ -147,7 +147,7 @@ For details now how these functionalities have been implemented, refer the sourc
 
 ## Usage
 
-- [Back to top](#table-of-contents)
+[(Back to top)](#table-of-contents)
 
 ### Tools Required
 
@@ -182,7 +182,7 @@ Cool tech stuff used in this project:
 
 ## Installation (Running the App)
 
-- [Back to top](#table-of-contents)
+[(Back to top)](#table-of-contents)
 
 ### Running Locally
 
@@ -198,7 +198,7 @@ To run **Weather Journal** locally:
 
 ### Using Another API Key
 
-- [Back to top](#table-of-contents)
+[(Back to top)](#table-of-contents)
 
 1. Before starting the server, go to the `website/app.js` folder. On line 3,
 
@@ -214,37 +214,37 @@ To run **Weather Journal** locally:
 
 ## License
 
-- [Back to top](#table-of-contents)
+[(Back to top)](#table-of-contents)
 
 [LICENSE](Readme/LICENSE.txt)
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
 
 ## References
 
-- [Back to top](#table-of-contents)
+[(Back to top)](#table-of-contents)
 
-- ![Node environment with Express](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
-- ![a server with GET and POST routes](https://expressjs.com/en/guide/routing.html)
-- ![openweathermap](https://openweathermap.org/current)  Credentials for a Web API
-- ![Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- ![chain Promises](https://javascript.info/promise-chaining)
-- ![Fetch the Weather with OpenWeatherMap API and JavaScript](https://bithacker.dev/fetch-weather-openweathermap-api-javascript)
-- ![Node](https://nodejs.org/en/about/)
-- ![Express](http://expressjs.com/)
-- ![Stack Overflow](https://stackoverflow.com/) for resolveing errors
-- ![Nodemon](https://www.npmjs.com/package/nodemon)
-- ![Rules](https://github.com/DavidAnson/markdownlint/blob/v0.26.2/doc/Rules.md#md040)
-- ![imperial units](https://openweathermap.force.com/s/article/switching-between-temperature-units-2019-10-24-21-47-24)
-- ![HTML DOM Element addEventListener()](https://www.w3schools.com/jsref/met_element_addeventlistener.asp)
-- ![Asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
-- ![Promises chaining](https://javascript.info/promise-chaining)
-- ![What Is package.json?](https://heynode.com/tutorial/what-packagejson/)
-- ![Create a package.json File](https://heynode.com/tutorial/create-packagejson-file/)
-- ![JavaScript Callbacks](https://www.w3schools.com/js/js_callback.asp)
+- [Node environment with Express](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
+- [a server with GET and POST routes](https://expressjs.com/en/guide/routing.html)
+- [openweathermap](https://openweathermap.org/current)  Credentials for a Web API
+- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [chain Promises](https://javascript.info/promise-chaining)
+- [Fetch the Weather with OpenWeatherMap API and JavaScript](https://bithacker.dev/fetch-weather-openweathermap-api-javascript)
+- [Node](https://nodejs.org/en/about/)
+- [Express](http://expressjs.com/)
+- [Stack Overflow](https://stackoverflow.com/) for resolveing errors
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+- [Rules](https://github.com/DavidAnson/markdownlint/blob/v0.26.2/doc/Rules.md#md040)
+- [imperial units](https://openweathermap.force.com/s/article/switching-between-temperature-units-2019-10-24-21-47-24)
+- [HTML DOM Element addEventListener()](https://www.w3schools.com/jsref/met_element_addeventlistener.asp)
+- [Asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
+- [Promises chaining](https://javascript.info/promise-chaining)
+- [What Is package.json?](https://heynode.com/tutorial/what-packagejson/)
+- [Create a package.json File](https://heynode.com/tutorial/create-packagejson-file/)
+- [JavaScript Callbacks](https://www.w3schools.com/js/js_callback.asp)
 
 ## Footer
 
-- [Back to top](#table-of-contents)
+[(Back to top)](#table-of-contents)
 
 ### Versions
 
