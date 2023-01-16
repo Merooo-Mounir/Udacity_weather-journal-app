@@ -1,0 +1,212 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-image: url("background.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+body::-webkit-scrollbar {
+    display: none;     /* for Chrome, Safari, and Opera */
+}
+
+/* App Heading */
+
+.headline {
+    margin: 1.5em 4rem;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+}
+
+/* ZIP, feelings & generate input */
+
+#zip,
+#feelings,
+#generate,
+#error{
+  background: #0f093666;
+  margin: 60px auto 0px;
+  width: 40%;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.788);
+  display: block;
+  font-size: 20px;
+  resize: none;
+}
+
+/* Zip field */
+
+#zip{
+    margin-top: 10px; 
+}
+
+
+/* Feelings field */
+#feelings{
+    margin-top: 18px;
+    overflow: hidden;    
+}
+
+/* Button Generate */
+
+#generate{
+    width: 20%;
+    margin-top: 25px;
+    background: #0a113ae7;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 0.9;
+    text-transform: uppercase;
+    transition: all 0.1s;
+}
+
+#generate:hover {
+    transform: translateY(-0.2rem);
+}
+
+#generate:active {
+    transform: translateY(0);
+}
+
+/* Error */
+
+#error{
+    opacity: 1;
+    color: red !important;
+    background: transparent;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    font-size: 18px;
+}
+
+/* Most recent entry styling */
+
+.entry{
+    background: #0f093629;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 10px;
+    height: 250px;
+    opacity: 0;
+    transition: all 2s ease;
+    text-shadow: 0 0.3rem 1rem rgba(0,0,0,0.7);
+    margin-top: 10px;
+}
+
+.title{
+    padding: 15px;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.9);
+    letter-spacing: 0.2rem;
+    color:rgb(100 62 22 / 88%);
+}
+
+#entryHolder{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 1.5vw;
+    align-content: center;
+    justify-items: center;
+    color: #0a113a;
+}
+
+#content{
+    margin-top: 10px;
+    color:maroon;
+    letter-spacing: 0.1rem;
+}
+
+#temp{
+    margin-bottom: 10px;
+
+}
+
+#temp,
+#city {
+    font-size: 2.5vw;
+}
+
+#date{
+    font-size: 2vw;
+}
+#description{
+    grid-column-start: 2;
+}
+
+/* Footer Styles */
+.page__footer {
+    background: #0f0936;
+    padding: 0.5px;
+    padding-inline-start: 2em;
+    color: #fff;
+}
+
+.page__footer p{
+    color: #fff;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+
+label{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: whitesmoke;
+    margin-right: 10em;
+}
+
+button{
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 2px 4px 5px #444;
+}
+
+textarea{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: rgba(255, 255, 255, 0.788); 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: rgba(255, 255, 255, 0.788); 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: rgba(255, 255, 255, 0.788); 
+    font-family: 'Oswald', sans-serif;
+
+} 
+
