@@ -5,9 +5,9 @@
 
 <!-- Describe project in brief -->
 - Second project of Egypt FWD initiative with Udacity collaboration (Front End Developer Udacity Nanodegree).
-- A simple application that is an exercise on web APIs, fetch API and `async` functions, build with `Node.js`, `html`, `css` and `javascript`.
-- Entering a zip code will fire an api call to [OpenWeatherMap](https://openweathermap.org/) to fetch some data including: temperature, city, small description about the weather.
-- All made by fetch methods `GET` and `POST`, and javascript `promises`.
+- A simple application that is an exercise on web APIs, fetch API and `async` functions, build with `Node.js`, `HTML`, `CSS` and `JavaScript`.
+- Entering a zip code will fire an API call to [OpenWeatherMap](https://openweathermap.org/) to fetch some data including: temperature, city, and a small description of the weather.
+- All are made by fetch methods `GET` and `POST`, and javascript `promises`.
 
 ## Demo-Preview
 
